@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/matrix.jpg");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -680,4 +680,20 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.icon-img {
+  width: 90px;
+  height: 90px;
+}
+
+.img-div:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+#headshot {
+  border-radius: 50%;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  width: 250px !important;
+  height: 250px !important;
 }
